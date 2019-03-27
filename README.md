@@ -22,3 +22,8 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+Run this before starting server: 
+`bin/rails db:migrate RAILS_ENV=development`
+Then to start server on localhost:3000, tun this:
+`bin/rails server`
